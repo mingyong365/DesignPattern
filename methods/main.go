@@ -18,8 +18,8 @@ func (g *gallon) double() {
 
 func main() {
 	var gal gallon = 5
-	gal.half()
-	fmt.Println(gal)
+	gal.half()       // receiver is vale not point, so gal invoke not changes origin gal
+	fmt.Println(gal) // 5
 	gal.double()
-	fmt.Println(gal)
+	fmt.Println(gal) // 10
 }
