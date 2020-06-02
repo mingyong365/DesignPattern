@@ -60,25 +60,25 @@ func newPlane(make, model string) *plane {
 	return p
 }
 
-func main() {
-	t := &truck{
-		vehicle: vehicle{"Ford", "F750"},
-		engine:  engine{GASOLINE + BIO, 700},
-		axels:   2,
-		wheels:  6,
-		class:   3,
-	}
-	t.start()
-	t.drive()
-
-	p := &plane{}
-	p.make = "HodaJet"
-	p.model = "HA-420"
-	p.fuel = JET
-	p.thrust = 2050
-	p.engineCount = 2
-	p.fixedWings = true
-	p.maxAttitude = 43000
-	p.start()
-	p.fly()
-}
+//func main() {
+//	t := &truck{
+//		vehicle: vehicle{"Ford", "F750"},
+//		engine:  engine{GASOLINE + BIO, 700},
+//		axels:   2,
+//		wheels:  6,
+//		class:   3,
+//	}
+//	t.start()
+//	t.drive()
+//
+//	p := &plane{}
+//	p.make = "HodaJet"
+//	p.model = "HA-420"
+//	p.fuel = JET
+//	p.thrust = 2050
+//	p.engineCount = 2
+//	p.fixedWings = true
+//	p.maxAttitude = 43000
+//	p.start()
+//	p.fly()
+//}
